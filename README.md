@@ -1,5 +1,5 @@
 # dual-fishery-management-model
-A collection of code resources used to complete my MSc. in Mathematics. The focus was on the dual (non)management of a single fishery.
+A collection of code resources used to complete my MSc. in Mathematics. The focus was on the dual (non)management of a single fishery. This is an extension and partial re-write of existing code. From a programatic perspective, this is not good coding, but it works for what was needed. The usage of globals in this context was not intended, but is a byproduct of the original code.
 
 ## Simulation_Model [.m :: MATLAB]
 
