@@ -10,9 +10,9 @@ Contains files coded in MATLAB. Use this to run a simulation for a single (vanil
 * EWS_dynamics_ross      :: Dual fishery dynamics.
 * results_filter         :: Simple analysis of output from EWS_Community.
 
-## Analysis [.m Mathematica]
+## Analysis [.m :: Mathematica]
 
-Mostly for backup, however, this contains Mathematica code, programmed to assist myself in the analysis of my simulation model above, absent from any stochastic effects. As it stands, trying to read this on the repo will be next to impossible. Reconmended you download to use, if needed.
+Mostly for backup, however, this contains Mathematica code, programmed to assist myself in the analysis of my simulation model above, absent from any stochastic effects. As it stands, trying to read this on the repo will be next to impossible. Recommended you download to use, if needed.
 
 * detj               :: Produces eigenvalues of a 3 ODE system of equations from jacobian determinant.
 * detj-pre-reduction :: Produces eigenvalues of a 3 ODE system of equations from jacobian determinant, with constraints pre-baked.
