@@ -105,20 +105,21 @@ figure1   = figure; % Initialize figure 1.
 figure2   = figure; % Initialize figure 2.
 figure3   = figure; % Initialize figure 3.
 
-% Creating File Directories.
+% Creating File Directories. Switch <FILE_DIRECTORY> with the location you would like 
+% to output the files.
 dirCount = 0;
 dirExist = 0;
 while dirExist ~= 1 
-    if exist(strcat('/Users/woof-redux/Documents/SESY_V2/data/',datestr(date),'_','VANILLA_run_', num2str(dirCount))) == 0 && modelSwitch == 0 
+    if exist(strcat('/<FILE_DIRECTORY>',datestr(date),'_','VANILLA_run_', num2str(dirCount))) == 0 && modelSwitch == 0 
         dirExist = 1;
-        mkdir(strcat('/Users/woof-redux/Documents/SESY_V2/data/',datestr(date),'_','VANILLA_run_', num2str(dirCount)))
-    elseif exist(strcat('/Users/woof-redux/Documents/SESY_V2/data/',datestr(date),'_','VANILLA_run_', num2str(dirCount)))  == 7 && modelSwitch == 0
+        mkdir(strcat('<FILE_DIRECTORY>',datestr(date),'_','VANILLA_run_', num2str(dirCount)))
+    elseif exist(strcat('<FILE_DIRECTORY>',datestr(date),'_','VANILLA_run_', num2str(dirCount)))  == 7 && modelSwitch == 0
         dirExist = 0;
         dirCount = dirCount+1;
-    elseif exist(strcat('/Users/woof-redux/Documents/SESY_V2/data/',datestr(date),'_','ROSS_run_', num2str(dirCount)))  == 0 && modelSwitch == 1
+    elseif exist(strcat('<FILE_DIRECTORY>',datestr(date),'_','ROSS_run_', num2str(dirCount)))  == 0 && modelSwitch == 1
         dirExist = 1;
-        mkdir(strcat('/Users/woof-redux/Documents/SESY_V2/data/',datestr(date),'_','ROSS_run_', num2str(dirCount)))
-    elseif exist(strcat('/Users/woof-redux/Documents/SESY_V2/data/',datestr(date),'_','ROSS_run_', num2str(dirCount)))  == 7 && modelSwitch == 1
+        mkdir(strcat('<FILE_DIRECTORY>',datestr(date),'_','ROSS_run_', num2str(dirCount)))
+    elseif exist(strcat('<FILE_DIRECTORY>',datestr(date),'_','ROSS_run_', num2str(dirCount)))  == 7 && modelSwitch == 1
         dirExist = 0;
         dirCount = dirCount+1;
     end  
