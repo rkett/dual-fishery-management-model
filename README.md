@@ -10,7 +10,7 @@ Contains files coded in MATLAB. Use this to run a simulation for a single (vanil
 * EWS_dynamics_ross      :: Dual fishery dynamics.
 * results_filter         :: Simple analysis of output from EWS_Community.
 
-## Analysis [.m :: Mathematica]
+## Analysis [.m :: Mathematica] (Invalid -- Do Not use -- Archive Only)
 
 Mostly for backup, however, this contains Mathematica code, programmed to assist myself in the analysis of my simulation model above, absent from any stochastic effects. As it stands, trying to read this on the repo will be next to impossible. Recommended you download to use, if needed.
 
